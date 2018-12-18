@@ -66,5 +66,8 @@
     <Build Include="PARENT.sql" />
     <Build Include="TEACHER.sql" />
     <Build Include="MANAGER.sql" />
+    <Build Include="COURSE.sql" />
+    <Build Include="CLASS.sql" />
+    <Build Include="TASK.sql" />
   </ItemGroup>
 </Project>

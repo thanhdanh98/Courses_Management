@@ -3,14 +3,14 @@ CREATE TABLE STUDENT
 (
 	/*StudentID cũng dùng làm username*/
 	StudentID char(7) not null,
-	StudentPw char(15) not null,
-	StudentName nvarchar(50) not null,
-	StudentDob date not null,
-	StudentGender nvarchar(3) not null,
+	StudentPw char(15) NOT null,
+	StudentName nvarchar(50) NOT null,
+	StudentDob date NOT null,
+	StudentGender nvarchar(3) NOT null,
 	StudentAddress nvarchar(100) null,
 	StudentMobile char(11) null,
 	StudentEmail char(40) null,
-	StudentCourse char(7) not null,
+	StudentCourse char(10) NOT null,
 	StudentParentID char(11) null,
 	constraint pk_student primary key (StudentID)
 )
